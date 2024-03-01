@@ -1,11 +1,12 @@
-import Post from '../Post'
-import Tags from '../Tags'
+import Post from '../post'
+import Tags from '../../Tags/tags'
 
 const postData = {
     id: "test-post",
     title: "Test Post",
     tag: Tags.Testing,
-    body: <h1>WOWOWOW</h1>
+    body: "hi"
+    
 }
 
 const testpost = new Post(postData.id, postData.title, postData.tag, postData.body)

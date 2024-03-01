@@ -1,4 +1,4 @@
-import testpost from "./Posts/testpost"
+import testpost from "./posts/testpost"
 
 const allPosts = [testpost]
 

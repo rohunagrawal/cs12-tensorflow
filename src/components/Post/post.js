@@ -7,4 +7,4 @@ class Post {
     }
 }
 
-export default Post;
+export default Post
