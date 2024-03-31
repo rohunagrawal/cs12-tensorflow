@@ -1,7 +1,7 @@
 import * as React from 'react';
 
 function TheoremBlock(props) { 
-    if(props.link == undefined){
+    if(props.link === undefined){
         return (
             <p><b><u>{props.title}</u></b> {props.children}</p>
             )

@@ -1,5 +1,5 @@
 import ReactDOM from "react-dom/client";
-import { HashRouter, Routes, Route, BrowserRouter } from "react-router-dom";
+import { Routes, Route, BrowserRouter } from "react-router-dom";
 
 import Home from './pages/Home'
 import Blog from './pages/Blog'

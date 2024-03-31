@@ -19,7 +19,7 @@ function Wiki(props) {
 
 function Explorer({toc, subdir}) {
 
-    if(subdir == undefined) {
+    if(subdir === undefined) {
         return (
             <ul>
                 {Object.keys(toc).map(section => <li><a href = {`./${idify(section)}`}>{section}</a></li>)}

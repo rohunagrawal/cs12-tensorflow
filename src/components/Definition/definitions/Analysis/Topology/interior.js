@@ -1,5 +1,4 @@
 import Definition from '../../../definition'
-import TheoremBlock from '../../../../utils/theorem-block';
 
 import { MathJax } from "better-react-mathjax";
 

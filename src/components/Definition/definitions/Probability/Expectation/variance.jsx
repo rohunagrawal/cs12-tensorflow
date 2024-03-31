@@ -1,5 +1,4 @@
 import Definition from '../../../definition'
-import Tags from '../../../../Tags/tags'
 
 import { MathJax } from "better-react-mathjax";
 
