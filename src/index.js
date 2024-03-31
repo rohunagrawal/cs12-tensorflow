@@ -1,8 +1,9 @@
 import ReactDOM from "react-dom/client";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route, BrowserRouter } from "react-router-dom";
 
 import Home from './pages/Home'
 import Blog from './pages/Blog'
+import CS12Home from './pages/CS12/CS12Home'
 import Wiki from './pages/Wiki'
 import PostPage from './components/Post/postPage'
 import DefinitionPage from "./components/Definition/definitionPage";
@@ -35,6 +36,7 @@ export default function App() {
         <Routes>
           <Route path="/">
             <Route index element={<Home />} />
+            <Route path="cs12/" exact element={<CS12Home />} />
             <Route path="blog/" exact element={<Blog />} />
             <Route path="blog/:id" element={<PostPage />} />
             <Route path="wiki/:subdir" element={<Wiki />} />
