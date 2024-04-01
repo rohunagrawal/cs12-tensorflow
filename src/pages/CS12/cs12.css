@@ -35,3 +35,20 @@ ul {
     padding: 0 40px;
 }
 
+code {
+    background: #f4f4f4;
+    border: 1px solid #ddd;
+    border-left: 3px solid #f36d33;
+    color: #333;
+    page-break-inside: avoid;
+    font-family: monospace;
+    font-size: 15px;
+    line-height: 1.6;
+    max-width: 100%;
+    overflow: auto;
+    margin: 0.5em 0;
+    padding: 0.5em 1em;
+    display: block;
+    word-wrap: break-word;
+}
+

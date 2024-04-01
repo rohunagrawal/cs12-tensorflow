@@ -1,9 +1,10 @@
 import ReactDOM from "react-dom/client";
-import { Routes, Route, BrowserRouter } from "react-router-dom";
+import { Routes, Route, HashRouter } from "react-router-dom";
 
 import Home from './pages/Home'
 import Blog from './pages/Blog'
 import CS12Home from './pages/CS12/CS12Home'
+import CS12Setup from './pages/CS12/CS12Setup'
 import Wiki from './pages/Wiki'
 import PostPage from './components/Post/postPage'
 import DefinitionPage from "./components/Definition/definitionPage";
@@ -32,11 +33,12 @@ export default function App() {
 
   return (
     <MathJaxContext version={3} config = {mathjaxConfig} hideUntilTypeset="first"  >
-      <BrowserRouter> 
+      <HashRouter> 
         <Routes>
           <Route path="/">
             <Route index element={<Home />} />
             <Route path="cs12/" exact element={<CS12Home />} />
+            <Route path="cs12/setup" exact element={<CS12Setup />} />
             <Route path="blog/" exact element={<Blog />} />
             <Route path="blog/:id" element={<PostPage />} />
             <Route path="wiki/:subdir" element={<Wiki />} />
@@ -47,7 +49,7 @@ export default function App() {
             
           </Route>
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
     </MathJaxContext>
   );
 }

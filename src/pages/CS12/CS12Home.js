@@ -15,8 +15,8 @@ function CS12Home() {
             <section class="instructor-info">
                 <h2>Instructor Info</h2>
                 <p><b>Instructor:</b> Rohun Agrawal
-                    (OH: TBD, rohun@caltech.edu) <br />
-                    <b>TA:</b> TBD (email me if interested) <br />
+                    (OH: Sundays 4-5pm on <a href="https://caltech.zoom.us/j/3996022900">zoom</a>, rohun@caltech.edu) <br />
+                    <b>TA:</b> Patrick Rim (OH: Thursdays 12-1pm, patrick@caltech.edu) <br />
                     
                     <b>Supervisor:</b> Michael Vanier (mvanier@cms.caltech.edu) </p>
                 
@@ -31,7 +31,9 @@ function CS12Home() {
             </section>
             <section class="prerequisites">
                 <h2>Lectures and Labs</h2>
-                <p>Lectures will be from 8-9pm on Tuesdays in ANB 121. Labs come out on Monday and are due the following Monday by 11:59pm.</p>
+                <p>Lectures will be from 8-9pm on Tuesdays in ANB 105. Labs come out on Monday and are due the following Monday by 11:59pm.</p>
+
+                <p>To submit labs, make a private GitHub repository. Give read access to @rohunagrawal and @patrickqrim, then for each assignment, submit the commit hash for your homework on Canvas. I'll send out the relevant information (GitHub usernames, email addresses, etc) once people have registered for the class.</p>
             </section>
             
 
@@ -109,7 +111,7 @@ function CS12Home() {
 
             <section class="Submitting Assignments">
                 <h2>Submitting Assignments</h2>
-                <p>To submit assignments, make a private GitHub repository. Give read access to me and the TA, then for each assignment, submit the commit hash for your homework on Canvas. I'll send out the relevant information (GitHub usernames, email addresses, etc) once people have registered for the class.</p>
+                <p>Follow the instructions in the <a href = "./#/cs12/setup">setup guide</a></p>
             </section>
 
             
