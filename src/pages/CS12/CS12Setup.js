@@ -4,6 +4,8 @@ function CS12Setup() {
     return (
         <div class="cs12-container">
 
+            <h1>CS 12 Setup</h1>
+
             <h2>Private Github Repo</h2>
 
             <p>To submit labs, make a private github repository and give read access to @rohunagrawal and @patrickqrim.

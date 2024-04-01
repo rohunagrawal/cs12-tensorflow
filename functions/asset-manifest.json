@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/rohunagrawal.github.io/static/css/main.b46d3f9c.css",
+    "main.js": "/rohunagrawal.github.io/static/js/main.5a022063.js",
+    "index.html": "/rohunagrawal.github.io/index.html",
+    "main.b46d3f9c.css.map": "/rohunagrawal.github.io/static/css/main.b46d3f9c.css.map",
+    "main.5a022063.js.map": "/rohunagrawal.github.io/static/js/main.5a022063.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b46d3f9c.css",
+    "static/js/main.5a022063.js"
+  ]
+}
