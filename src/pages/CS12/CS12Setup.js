@@ -16,10 +16,27 @@ function CS12Setup() {
             <p>Once you are done with the lab, push your changes to your private github repo that is shared with us. We will grade the latest commit that is pushed before the deadline.</p>
 
             <h2>Virtual environments</h2>
+
+            <p>Virtual environments simulate a "clean" Python install on your system so you don't need to worry about library conflicts and dependency issues. You can use either virtualenv or conda. I would recommend using conda. </p>
+
+            <h4>Conda</h4>
+
+            <p>Follow this link to install Conda if you don't have it already: <a href = "https://conda.io/projects/conda/en/latest/user-guide/install/index.html">https://conda.io/projects/conda/en/latest/user-guide/install/index.html</a> <br></br>
+            
+            Once you've done that, create a new environment and activate it.
+            <code>conda create -n cs12<br></br>conda activate cs12</code>
+            Install all the packages you'll need for the labs: 
+            <code>pip install numpy scipy matplotlib ipython jupyter pandas scikit-learn tensorflow keras</code>
+
+            Then, try running `python -c "import tensorflow"` in your shell.<br></br>
+            If the line executes successfully (printing nothing), your setup is probably fine. <br></br>
+            If you get an error message like `ModuleNotFoundError: No module named 'tensorflow'` then something went wrong.
+
+            </p>
+            <h4>Virtualenv</h4>
             
             <p>
-            Virtual environments simulate a "clean" Python install on your system so you don't need to worry about library conflicts and dependency issues.
-            <br></br>
+            
             First, install virtualenv and virtualenvwrapper:<br></br>
             <code>
             pip install virtualenv <br></br>
