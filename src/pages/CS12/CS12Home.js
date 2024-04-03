@@ -48,42 +48,42 @@ function CS12Home() {
                 <tbody>
                     <tr>
                         <td>Introduction</td>
-                        <td>link</td>
+                        <td><a href = "https://drive.google.com/drive/folders/1ZivBsJwhkdWb5vT-k-uKVyVflNYBa_sJ?usp=sharing">link</a></td>
                         <td>04/08/24</td>
                     </tr>
                     <tr>
                         <td>Tensorflow Basics</td>
-                        <td>link</td>
+                        <td><a href = "https://drive.google.com/drive/folders/1ZivBsJwhkdWb5vT-k-uKVyVflNYBa_sJ?usp=sharing">link</a></td>
                         <td>04/15/24</td>
                     </tr>
                     <tr>
                         <td>Linear Models</td>
-                        <td>link</td>
+                        <td><a href = "https://drive.google.com/drive/folders/1ZivBsJwhkdWb5vT-k-uKVyVflNYBa_sJ?usp=sharing">link</a></td>
                         <td>04/22/24</td>
                     </tr>
                     <tr>
                         <td>Dense Neural Networks</td>
-                        <td>link</td>
+                        <td><a href = "https://drive.google.com/drive/folders/1ZivBsJwhkdWb5vT-k-uKVyVflNYBa_sJ?usp=sharing">link</a></td>
                         <td>04/29/24</td>
                     </tr>
                     <tr>
                         <td>Convolutional Neural Networks</td>
-                        <td>link</td>
+                        <td><a href = "https://drive.google.com/drive/folders/1ZivBsJwhkdWb5vT-k-uKVyVflNYBa_sJ?usp=sharing">link</a></td>
                         <td>05/06/24</td>
                     </tr>
                     <tr>
                         <td>Adversarial Attacks</td>
-                        <td>link</td>
+                        <td><a href = "https://drive.google.com/drive/folders/1ZivBsJwhkdWb5vT-k-uKVyVflNYBa_sJ?usp=sharing">link</a></td>
                         <td>05/13/24</td>
                     </tr>
                     <tr>
                         <td>Transformers Pt. 1</td>
-                        <td>link</td>
+                        <td><a href = "https://drive.google.com/drive/folders/1ZivBsJwhkdWb5vT-k-uKVyVflNYBa_sJ?usp=sharing">link</a></td>
                         <td>05/20/24</td>
                     </tr>
                     <tr>
                         <td>Transformers Pt. 2</td>
-                        <td>link</td>
+                        <td><a href = "https://drive.google.com/drive/folders/1ZivBsJwhkdWb5vT-k-uKVyVflNYBa_sJ?usp=sharing">link</a></td>
                         <td>06/10/24</td>
                     </tr>
                 </tbody>
