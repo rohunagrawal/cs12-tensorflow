@@ -16,7 +16,7 @@ function CS12Home() {
                 <h2>Instructor Info</h2>
                 <p><b>Instructor:</b> Rohun Agrawal
                     (OH: Sundays 4-5pm on <a href="https://caltech.zoom.us/j/3996022900">zoom</a>, rohun@caltech.edu) <br />
-                    <b>TA:</b> Patrick Rim (OH: Thursdays 12-1pm on <a href = "https://caltech.zoom.us/s/4039084287">zoom</a>, patrick@caltech.edu) <br />
+                    <b>TA:</b> Patrick Rim (OH: Thursdays 8-9pm on <a href = "https://caltech.zoom.us/s/4039084287">zoom</a>, patrick@caltech.edu) <br />
                     
                     <b>Supervisor:</b> Michael Vanier (mvanier@cms.caltech.edu) </p>
                 
