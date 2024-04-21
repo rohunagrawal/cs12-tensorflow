@@ -24,7 +24,7 @@ function CS12Setup() {
             <p>Follow this link to install Conda if you don't have it already: <a href = "https://conda.io/projects/conda/en/latest/user-guide/install/index.html">https://conda.io/projects/conda/en/latest/user-guide/install/index.html</a> <br></br>
             
             Once you've done that, create a new environment and activate it.
-            <code>conda create -n cs12<br></br>conda activate cs12</code>
+            <code>conda create -n cs12 python<br></br>conda activate cs12</code>
             Install all the packages you'll need for the labs: 
             <code>pip install numpy scipy matplotlib ipython jupyter pandas scikit-learn tensorflow keras</code>
 
