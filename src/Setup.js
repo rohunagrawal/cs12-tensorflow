@@ -1,6 +1,6 @@
-import "./cs12.css"
+import "./styles.css"
 
-function CS12Setup() {
+function Setup() {
     return (
         <div class="cs12-container">
 
@@ -76,4 +76,4 @@ function CS12Setup() {
     );
   }
   
-  export default CS12Setup;
+  export default Setup; 

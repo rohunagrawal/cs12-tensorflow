@@ -1,6 +1,6 @@
-import "./cs12.css"
+import "./styles.css"
 
-function CS12Home() {
+function Home() {
     return (
         <div class="cs12-container">
 
@@ -100,7 +100,7 @@ function CS12Home() {
 
             <section class="Submitting Assignments">
                 <h2>Submitting Assignments</h2>
-                <p>Follow the instructions in the <a href = "./#/cs12/setup">setup guide</a></p>
+                <p>Follow the instructions in the <a href = "#/setup">setup guide</a></p>
             </section>
 
             
@@ -108,4 +108,4 @@ function CS12Home() {
     );
   }
   
-  export default CS12Home;
+  export default Home; 

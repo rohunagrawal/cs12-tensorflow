@@ -1,15 +1,8 @@
 import ReactDOM from "react-dom/client";
 import { Routes, Route, HashRouter } from "react-router-dom";
 
-import Home from './pages/Home'
-import Blog from './pages/Blog'
-import CS12Home from './pages/CS12/CS12Home'
-import CS12Setup from './pages/CS12/CS12Setup'
-import Wiki from './pages/Wiki'
-import PostPage from './components/Post/postPage'
-import DefinitionPage from "./components/Definition/definitionPage";
-import TheoremPage from "./components/Theorem/theoremPage";
-
+import Home from './Home'
+import Setup from './Setup'
 import React from 'react';
 import './index.css';
 import {MathJaxContext} from "better-react-mathjax";
@@ -37,16 +30,7 @@ export default function App() {
         <Routes>
           <Route path="/">
             <Route index element={<Home />} />
-            <Route path="cs12/" exact element={<CS12Home />} />
-            <Route path="cs12/setup" exact element={<CS12Setup />} />
-            <Route path="blog/" exact element={<Blog />} />
-            <Route path="blog/:id" element={<PostPage />} />
-            <Route path="wiki/:subdir" element={<Wiki />} />
-            <Route path="wiki" exact element={<Wiki />} />
-            <Route path="definition/:id" element={<DefinitionPage />} />
-            <Route path="theorem/:id" element={<TheoremPage />} />
-            
-            
+            <Route path="setup" exact element={<Setup />} />
           </Route>
         </Routes>
       </HashRouter>
