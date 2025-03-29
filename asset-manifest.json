@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.b46d3f9c.css",
-    "main.js": "/static/js/main.482987f7.js",
-    "index.html": "/index.html",
-    "main.b46d3f9c.css.map": "/static/css/main.b46d3f9c.css.map",
-    "main.482987f7.js.map": "/static/js/main.482987f7.js.map"
+    "main.css": "/cs12-tensorflow/static/css/main.b46d3f9c.css",
+    "main.js": "/cs12-tensorflow/static/js/main.482987f7.js",
+    "index.html": "/cs12-tensorflow/index.html",
+    "main.b46d3f9c.css.map": "/cs12-tensorflow/static/css/main.b46d3f9c.css.map",
+    "main.482987f7.js.map": "/cs12-tensorflow/static/js/main.482987f7.js.map"
   },
   "entrypoints": [
     "static/css/main.b46d3f9c.css",
