@@ -87,7 +87,7 @@ function Home() {
             </section>
             <section class="Grading">
                 <h2>Grading</h2>
-                <p>This course is pass-fail. Each lab is graded on a scale of 3. To pass you must submit all labs with an average of at least 2/3. Commiting labs past the deadline results in a deduction of 0.5 points out of 3. Grading is mostly based on an attempt, and we want everyone to easily pass.</p>
+                <p>This course is pass-fail. Each lab is graded on a scale of 3. To pass you must submit all labs with an average of at least 2/3. Commiting labs past the deadline results in a deduction of 0.5 points out of 3. Grading is mostly based on an attempt, and we want everyone to easily pass. Grades will be posted on Canvas.</p>
             </section>
             <section class="Collaboration Policy">
                 <h2>Collaboration Policy</h2>
