@@ -52,35 +52,35 @@ function Home() {
                 <tbody>
                     <tr>
                         <td>Introduction</td>
-                        <td>04/07/24</td>
+                        <td>04/07/25</td>
                     </tr>
                     <tr>
                         <td>Tensorflow Basics</td>
-                        <td>04/14/24</td>
+                        <td>04/14/25</td>
                     </tr>
                     <tr>
                         <td>Linear Models</td>
-                        <td>04/21/24</td>
+                        <td>04/21/25</td>
                     </tr>
                     <tr>
                         <td>Dense Neural Networks</td>
-                        <td>04/28/24</td>
+                        <td>04/28/25</td>
                     </tr>
                     <tr>
                         <td>Convolutional Neural Networks</td>
-                        <td>05/05/24</td>
+                        <td>05/05/25</td>
                     </tr>
                     <tr>
                         <td>Adversarial Attacks</td>
-                        <td>05/12/24</td>
+                        <td>05/12/25</td>
                     </tr>
                     <tr>
                         <td>Transformers Pt. 1</td>
-                        <td>05/19/24</td>
+                        <td>05/19/25</td>
                     </tr>
                     <tr>
                         <td>Transformers Pt. 2</td>
-                        <td>06/02/24</td>
+                        <td>06/02/25</td>
                     </tr>
                 </tbody>
             </table>
