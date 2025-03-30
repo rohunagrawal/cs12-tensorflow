@@ -49,11 +49,11 @@ p {
 }
 
 a{
-  color: black;
+  color: #FF6C0C;
   transition: color 0.3s;
 }
 
 a:hover {
-  color: #FF6C0C;
+  color: #c04d00;
 }
 

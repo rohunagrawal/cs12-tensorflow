@@ -8,8 +8,8 @@ function Setup() {
 
             <h2>Private Github Repo</h2>
 
-            <p>To submit labs, make a private github repository and give read access to @rohunagrawal and @patrickqrim.
-            Then, clone this <a href="https://github.com/rohunagrawal/cs12-tensorflow-sp24">repository</a> that will be updated with the labs as they come out. Then copy the lab folder you are working on from the labs repo to your private repo. You can do this with <code>cp -a [source dir] [destination dir]</code> </p> 
+            <p>To submit labs, make a private github repository and give read access to @rohunagrawal.
+            Then, clone this <a href="https://github.com/rohunagrawal/cs12-tensorflow-sp25">repository</a> that will be updated with the labs as they come out. Then copy the lab folder you are working on from the labs repo to your private repo. You can do this with <code>cp -a [source dir] [destination dir]</code> </p> 
 
             <h2>Submitting Assignments</h2>
 
@@ -60,7 +60,7 @@ function Setup() {
             </code>
             Then, try running `python -c "import tensorflow"` in your shell.<br></br>
             If the line executes successfully (printing nothing), your setup is probably fine.<br></br>
-            If you get an error message like `ModuleNotFoundError: No module named 'tensorflow'` then something went wrong.
+            If you get an error message like `ModuleNotFoundError: No module named 'tensorflow'` then something went wrong. You can use `pip list` to check if tensorflow is installed.
             </p>
 
             <h2>Running the code</h2>

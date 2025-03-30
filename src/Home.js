@@ -30,9 +30,13 @@ function Home() {
             </section>
             <section class="prerequisites">
                 <h2>Lectures and Labs</h2>
-                <p>Lectures will be from 8-9pm on Wednesdays in ANB 121. Lecture slides will be added <a href = "https://drive.google.com/drive/folders/1EejMci2ojV_hsa-LN7oB0gtOMkc2yCO0?usp=share_link">here</a>
+                <p>Lectures will be from 8-9pm on Wednesdays in ANB 121. Lecture slides will be added <a href = "https://drive.google.com/drive/folders/1EejMci2ojV_hsa-LN7oB0gtOMkc2yCO0?usp=share_link">here</a>.<br></br>
                     
-                    Labs come out on Monday and are due the following Monday by 11:59pm.</p>
+                    Labs come out on Monday and are due the following Monday by 11:59pm, with the exception of the last lab that is due 2 weeks after its release. The labs will be posted in <a href = "https://github.com/rohunagrawal/cs12-tensorflow-sp25">this github repo</a>.</p>
+            </section>
+            <section class="Piazza">
+                <h2>Piazza</h2>
+                <p>Please join the <a href = "https://piazza.com/caltech/spring2025/cs12">piazza</a> for this course. We will be using it to post announcements and answer questions.</p>
             </section>
             
 
@@ -92,7 +96,7 @@ function Home() {
 
             <section class="Submitting Assignments">
                 <h2>Submitting Assignments</h2>
-                <p>Follow the instructions in the <a href = "#/setup">setup guide</a></p>
+                <p>Follow the instructions in the <a href = "/setup">setup guide</a></p>
             </section>
 
             
