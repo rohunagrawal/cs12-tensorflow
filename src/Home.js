@@ -96,7 +96,7 @@ function Home() {
 
             <section class="Submitting Assignments">
                 <h2>Submitting Assignments</h2>
-                <p>Follow the instructions in the <a href = "/setup">setup guide</a></p>
+                <p>Follow the instructions in the <a href = "/#/setup">setup guide</a></p>
             </section>
 
             

@@ -1,5 +1,5 @@
 import ReactDOM from "react-dom/client";
-import { Routes, Route, BrowserRouter } from "react-router-dom";
+import { Routes, Route, HashRouter } from "react-router-dom";
 
 import Home from './Home'
 import Setup from './Setup'
@@ -9,14 +9,14 @@ import './index.css';
 export default function App() {
 
   return (
-      <BrowserRouter> 
+      <HashRouter> 
         <Routes>
           <Route path="/">
             <Route index element={<Home />} />
             <Route path="setup" exact element={<Setup />} />
           </Route>
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
   );
 }
 
