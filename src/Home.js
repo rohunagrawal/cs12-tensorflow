@@ -7,7 +7,7 @@ function Home() {
             <header class="intro-section" Style = "padding-top: 20px;">
                 <img id = "tensorflow-logo" src="https://upload.wikimedia.org/wikipedia/commons/2/2d/Tensorflow_logo.svg" alt="TensorFlow Logo" width="100" height="100" />
                 <div>
-                    <h1>CS 12: TensorFlow (Section 2)</h1>
+                    <h1>CS 12: TensorFlow (Spring 2025)</h1>
                     <p>Welcome to CS 12: TensorFlow! This course is intended as a fast-paced introduction to machine learning with TensorFlow and Keras, focused particularly on neural networks. It gives a whirlwind tour of several types of models, and brief coverage of several machine learning topics, but its primary goal is first and foremost to get you comfortable with writing, training, and deploying sophisticated models in TensorFlow.</p>
                     
                 </div>
@@ -15,9 +15,8 @@ function Home() {
             <section class="instructor-info">
                 <h2>Instructor Info</h2>
                 <p><b>Instructor:</b> Rohun Agrawal
-                    (OH: Sundays 4-5pm on <a href="https://caltech.zoom.us/j/3996022900">zoom</a>, rohun@caltech.edu) <br />
-                    <b>TA:</b> Patrick Rim (OH: Thursdays 8-9pm on <a href = "https://caltech.zoom.us/s/4039084287">zoom</a>, patrick@caltech.edu) <br />
-                    
+                    (OH: Friday 3-4pm on <a href="https://caltech.zoom.us/j/3996022900">zoom</a>, rohun@caltech.edu) <br />
+                   
                     <b>Supervisor:</b> Michael Vanier (mvanier@cms.caltech.edu) </p>
                 
             </section>
@@ -31,7 +30,9 @@ function Home() {
             </section>
             <section class="prerequisites">
                 <h2>Lectures and Labs</h2>
-                <p>Lectures will be from 8-9pm on Tuesdays in ANB 105. Labs come out on Monday and are due the following Monday by 11:59pm.</p>
+                <p>Lectures will be from 8-9pm on Wednesdays in ANB 121. Lecture slides will be added <a href = "https://drive.google.com/drive/folders/1EejMci2ojV_hsa-LN7oB0gtOMkc2yCO0?usp=share_link">here</a>
+                    
+                    Labs come out on Monday and are due the following Monday by 11:59pm.</p>
             </section>
             
 
@@ -41,50 +42,41 @@ function Home() {
                 <thead>
                     <tr>
                         <th>Topic</th>
-                        <th>Lecture</th>
                         <th>Due</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
                         <td>Introduction</td>
-                        <td><a href = "https://drive.google.com/drive/folders/1ZivBsJwhkdWb5vT-k-uKVyVflNYBa_sJ?usp=sharing">link</a></td>
-                        <td>04/08/24</td>
+                        <td>04/07/24</td>
                     </tr>
                     <tr>
                         <td>Tensorflow Basics</td>
-                        <td><a href = "https://drive.google.com/drive/folders/1ZivBsJwhkdWb5vT-k-uKVyVflNYBa_sJ?usp=sharing">link</a></td>
-                        <td>04/15/24</td>
+                        <td>04/14/24</td>
                     </tr>
                     <tr>
                         <td>Linear Models</td>
-                        <td><a href = "https://drive.google.com/drive/folders/1ZivBsJwhkdWb5vT-k-uKVyVflNYBa_sJ?usp=sharing">link</a></td>
-                        <td>04/22/24</td>
+                        <td>04/21/24</td>
                     </tr>
                     <tr>
                         <td>Dense Neural Networks</td>
-                        <td><a href = "https://drive.google.com/drive/folders/1ZivBsJwhkdWb5vT-k-uKVyVflNYBa_sJ?usp=sharing">link</a></td>
-                        <td>04/29/24</td>
+                        <td>04/28/24</td>
                     </tr>
                     <tr>
                         <td>Convolutional Neural Networks</td>
-                        <td><a href = "https://drive.google.com/drive/folders/1ZivBsJwhkdWb5vT-k-uKVyVflNYBa_sJ?usp=sharing">link</a></td>
-                        <td>05/06/24</td>
+                        <td>05/05/24</td>
                     </tr>
                     <tr>
                         <td>Adversarial Attacks</td>
-                        <td><a href = "https://drive.google.com/drive/folders/1ZivBsJwhkdWb5vT-k-uKVyVflNYBa_sJ?usp=sharing">link</a></td>
-                        <td>05/13/24</td>
+                        <td>05/12/24</td>
                     </tr>
                     <tr>
                         <td>Transformers Pt. 1</td>
-                        <td><a href = "https://drive.google.com/drive/folders/1ZivBsJwhkdWb5vT-k-uKVyVflNYBa_sJ?usp=sharing">link</a></td>
-                        <td>05/20/24</td>
+                        <td>05/19/24</td>
                     </tr>
                     <tr>
                         <td>Transformers Pt. 2</td>
-                        <td><a href = "https://drive.google.com/drive/folders/1ZivBsJwhkdWb5vT-k-uKVyVflNYBa_sJ?usp=sharing">link</a></td>
-                        <td>06/10/24</td>
+                        <td>06/02/24</td>
                     </tr>
                 </tbody>
             </table>
