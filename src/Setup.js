@@ -17,7 +17,33 @@ function Setup() {
 
             <h2>Virtual environments</h2>
 
-            <p>Virtual environments simulate a "clean" Python install on your system so you don't need to worry about library conflicts and dependency issues. You can use either virtualenv or conda. I would recommend using conda. </p>
+            <p>Virtual environments simulate a "clean" Python install on your system so you don't need to worry about library conflicts and dependency issues. You can use either uv, virtualenv, or conda. I would recommend using uv. </p>
+
+            <h4>uv</h4>
+
+            <p>First, install uv from <a href = "https://docs.astral.sh/uv/getting-started/installation/">here</a>.</p>
+
+            In the same directory as your labs, create a file with the name <i>"pyproject.toml"</i> and the following content:
+
+            <code>
+            [project] <br></br>
+            name = "cs12" <br></br>
+            version = "0.1.0" <br></br>
+            requires-python = "&gt;=3.9, &lt;=3.11" <br></br>
+            dependencies = [ <br></br>
+                &emsp;&emsp;"tensorflow", <br></br>
+                &emsp;&emsp;"numpy", <br></br>
+                &emsp;&emsp;"matplotlib", <br></br>
+                &emsp;&emsp;"pandas", <br></br>
+                &emsp;&emsp;"ipykernel" <br></br>
+            ] <br></br>
+            </code>
+
+            Then run <code>uv sync</code>
+            which will download all the packages listed in the dependencies list and store it in a folder called <i>"/.venv"</i>.
+            Then in your ide, you can select .venv as the kernel for the python notebook.
+
+            If you run into issues, delete the '.venv' folder, change the python version requirements in the 'pyproject.toml' file, and run "uv sync" again.
 
             <h4>Conda</h4>
 
@@ -69,7 +95,6 @@ function Setup() {
             to host the notebook server.
             If you haven't used Jupyter notebooks before, here's a good <a href="https://www.dataquest.io/blog/jupyter-notebook-tutorial/">guide</a>.
             <br></br><br></br><br></br>
-            
 
             
         </div>
